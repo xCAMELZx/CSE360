@@ -1,0 +1,21 @@
+Exercise 3.2 
+#!/bin/bash
+#Title: Script Assign 3.2
+#Date: 09.30.17
+#Author: Yousef Jarrar
+#Description: Prompt user to name file. 
+#Option: N/A 
+
+while true
+do
+	printf "%s\n" "Enter the name of a file: "
+	read x
+	if [ -e "$x" ]
+	then
+		printf "Good Job.\n"
+		break
+	else
+		printf "File %s do not exist. Try again..\n" "$x"
+		continue
+	fi
+done

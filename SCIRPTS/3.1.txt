@@ -1,0 +1,31 @@
+Exercise 3.1
+#!/bin/bash
+#Script Assignment 3.1 , 3.2 
+#Date: 9.30.17
+#Author: Yousef Jarrar
+#Script will loop for correct number
+#Option: N/A
+
+while true
+do 
+	printf "%s\n" "Enter Number between 20 and 30:"
+	read x
+	case $x in
+		*[!0-9]*)
+		printf "%s\n" "Enter Correct Number, try again" 
+		continue
+		;;
+		*)
+			if ["$x" -le 30] && [ "$x" -ge 20] 
+
+			then 
+				printf "Good Job!\n"
+				break
+			else
+				printf "%s\n" "Between 20 and 30: Please Try Again.." 
+				continue
+			fi
+		;;
+	esac
+done
+

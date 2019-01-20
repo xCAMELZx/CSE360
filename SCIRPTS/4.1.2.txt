@@ -1,0 +1,30 @@
+Exercise 4.1 4.2 
+#!/bin/bash
+# Tile: Script Assignment 4.1 , 4.2 
+# Date: October 1 2017
+# Author: Yousef Jarrar
+# Description: This script will answer the 4.1 4.2 questions 
+# Option: N/A
+
+1. How many arguements are on the command line? 
+No of arguments is: 6
+
+1.sa
+
+2.$#
+
+3.$(date “+%Y %m %d”)
+
+4. John
+
+5.\
+
+6.Doe
+
+
+2. What potential problem exists with the following snippet? 
+
+There is no “” with the date formatter, it should be like,
+
+Year =$(date +"%Y")
+

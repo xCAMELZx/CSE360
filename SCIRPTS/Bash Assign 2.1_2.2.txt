@@ -1,0 +1,15 @@
+Exercise 2.1 and 2.2 
+#!/bin/bash
+#Title: Scirpt Assignment 1 CH 2
+#Date: September 24, 2017
+#Author: Yousef Jarrar
+#Desciption: This script will answer questions 1 and 2 
+#Option: None 
+
+1. What is wrong with this command? 
+ tr A Z < $HOME/temp > $HOME/temp
+- The issue lies within the range that has been set after the tf command. In order for the script to understand what has been defined after 'tr' 
+the programmer has to ensure that it looks like --> tr 'A-Z' < $HOME/temp > $HOME/temp
+The shell provided for this command usually looks like: tr'{}' '()' < infile > outfile 
+
+2. printf -v var="$(printf "%d.%-d\n" $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM | tee FILENAME)"

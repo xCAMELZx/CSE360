@@ -1,0 +1,12 @@
+Exercise 1.1
+#!/bin/bash
+#Title: Script Assignment 1.1
+#Date: September 24, 2017
+#Author: Yousef Jarrar
+#Description: This script will create a directory called "bpl"
+#Description: within the main directory, two subdirectories, bin and scripts.
+#Option: None
+
+mkdir $HOME/bpl
+mkdir $HOME/bpl/bin
+mkdir $HOME/bpl/scripts

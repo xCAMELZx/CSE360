@@ -1,0 +1,143 @@
+NAME: Yousef Jarrar
+HW#: 8	
+CHAPTER: 36-40
+[1] What does the "exec" command do? 
+a. Executes a command in place of a current shell
+b. Changes shells  
+c. Analyzes the proper shell for execution 
+d. All of the above. 
+Answer: a
+Pg: 745
+[2] Where does the exec kernel come from? 
+a. /usr/bin/kmv
+b. /usr/bin/env
+c. /usr/bin/com
+d. /user/bin/env
+Answer: bin
+Pg: 746
+[3] What does the Bourne shell return when executed? 
+a. It returns a 2
+b. It returns a 1 
+c. It returns a 0
+d. It returns nothing 
+Answer: c
+Pg: 748
+[4] What is a while loop? 
+a. It has no function in the shell
+b. A loop that is continuous to the 10th power 
+c. A loop that executes once 
+d. It a loop that is endless
+Answer: d 
+Pg: 751
+[5] What happens when you set your shell with ' -xv ' ? 
+a. Shows you what's happening as the shell reads your script
+b. Shows you what's happening prior to the shell executing 
+c. Show's the user the process background 
+d. None of the above 
+Answer: a 
+Pg: 770
+[6] What happens when a shell returns an error of: " End of file unexpected "
+a. Look for a line in your script that has no semicolon 
+b. Look for a line in your script that has an opening quote but no closing quote. 
+c. Look for a line in your script that has no opening quote but has a closing quote. 
+d. All of the above 
+Answer: b
+Pg: 773
+[7] Where is the concept of time stored in Unix? 
+a. /user/include/time/param.h
+b. /user/include/sys/param
+c. /user/include/sys/param.h
+d. None of the above
+Answer: c
+Pg: 777
+[8] What does 'script.tidy' use when running command? 
+a. Nothing is used 
+b. It uses 'zch' 
+c. It uses 'bash'
+d. It uses 'sed'
+Answer: d 
+Pg: 780
+[9] What exacly makes up a 'backup'? 
+a. Having files saved on a CD 
+b. Having files saved on a RAID
+c. Having files stored on a flashdisk 
+d. All of the above 
+Answer: d
+Pg: 787
+[10] What does .tar stand  for? 
+a. Tape Archiver 
+b. Tommy Archiver 
+c. Thorn Achiver
+d. None of the above 
+Answer: a
+Pg: 788
+[11] What command allows you to save backups on Unix? 
+a. rar c . 
+b. tar c . 
+c. par c . 
+d. All of the above 
+Answer: b
+Pg: 789
+[12] How do you restore files that have been backed up? 
+a. %bash c ./filepath 
+b. %rar c ./filepath 
+c. %tar c ./filepath
+d. All of the above 
+Answer: c 
+Pg: 791 
+[13] What does 'RCS' stand for? 
+a. Revision Control System 
+b. Concurrent Version System 
+c. Standby Version System 
+d. None of the above 
+Answer: a 
+Pg: 809
+[14] What does 'CVS' stand  for? 
+a. Revision Control System 
+b. Concurrent Version System
+c. Hub Central Station 
+d. All of the above 
+Answer: b
+Pg: 811 
+[15] What does the 'rcsrevs myprog' provide? 
+a. Tells you how many times a script  has been deleted in an RCS  
+b. Tells you how many times a script has been executed in an RCS
+c. Tells you all the revision numbers that are stored in an RCS 
+d. None of the above 
+Answer: c 
+Pg: 815
+[16] What does " rcsgrep -a " allow you to do? 
+a. None of the answers below 
+b. Lets you edit all files at once 
+c. Shell is created to execute all classes of Bourne
+d. Searches all revisions of an RCS file. 
+Answer: d 
+Pg: 820 
+[17] What does ' FHS ' stand for? 
+a. Filesystem Hierarchy Standard
+b. Filesystem Hierarchy Samuel 
+c. Hierarchy Standard Filesystem
+d. None of the above 
+Answer: a
+Pg: 823
+[18] What is a ' dselect tool  ' allow you to do? 
+a. Lets you choose the method used to access package files.
+b. provides an easy-to-use, character-based graphical frontend for accessing dpkg
+c. Initiates removal of packages selection for removal.
+d. Lets you choose packages for installation or removal
+Answer: b
+Pg: 825
+[19] What does ' harddisk ' allow you to do? 
+a. Lets you install packages residing on an FTP server.
+b. Lets you install packages from a set of floppy diskettes.
+c. Lets you install packages residing on a hard disk partition that is not currently mounted. 
+d. All of the above 
+Answer: c
+Pg: 830
+[20] What does ' apt-get ' allow you to do? 
+a. The latest unstable release. Download it. 
+b. the distribution release that contains the packages. 
+c. The host part of the URI 
+d. to update information on available packages, install a package, or upgrade installed packages
+Answer: d
+Pg: 831 
